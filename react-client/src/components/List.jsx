@@ -7,6 +7,7 @@ const List = (props) => (
     There are { props.items.length } items.
     { props.items.map(item => <ListItem item={item}/>)}
   </div>
+  //Hello
 )
 
 export default List;
